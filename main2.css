@@ -3,6 +3,11 @@ html, body, p, h1, h2, h3, h4, h5, h6, ul, li {
     padding: 0;
 }
 
+
+body{
+    background: #000;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -13,10 +18,11 @@ html, body, p, h1, h2, h3, h4, h5, h6, ul, li {
     content: " "
 }
 .big-wrapper {
-    position: relative;
     width: 100%;
     height: 100%;
     margin: 0;
+    padding-top: 100px;
+
 }
 
 .big-wrapper:after{
@@ -26,20 +32,16 @@ html, body, p, h1, h2, h3, h4, h5, h6, ul, li {
 }
 
 header {
-    position: absolute;
-    width: 100%;
-    min-height: 1000px;
 
-    background-color: cyan;
+    width: 100%;
 }
 
 
 .header-wrapper {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
+    width: 1000px;
+    margin: 0px auto 0px;
     background-color: azure;
-    top: 80px;
+
 
 }
 
@@ -72,7 +74,7 @@ header {
 .top-left {
     padding: 0px 5px 0px 50px;
     box-sizing: border-box;
-    width: 70%;
+    width: 68%;
     float: left;
 }
 
@@ -95,15 +97,14 @@ header {
 }
 
 .nav-bottom ul {
+    margin-right: 25px;
     float: right;
-    padding: 50px 50px;
+    line-height: 70px;
 }
 
 .nav-bottom .logo {
-    height: 60px;
     float: left;
-    font: 70px bold;
-    margin: 30px 50px;
+    margin: 9px 50px;
 }
 
 .navbar {
@@ -127,7 +128,20 @@ header {
 }
 
 .left-img img {
-    width: 100%;
+    margin-top: 50px;
+    width: 400px;
 }
 
 
+
+/* logo image */
+.logo img{
+    width:170px;
+}
+
+
+/* navbar */
+
+.header-wrapper .nav-bottom{
+    height: 75px;
+}
