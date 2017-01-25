@@ -1,10 +1,13 @@
 html, body, p, h1, h2, h3, h4, h5, h6, ul, li {
     margin: 0;
     padding: 0;
+    font-size: 14px;
+    font-family: Tahoma;
+    color: rgba(35, 35, 35, 1);
+
 }
 
-
-body{
+body {
     background: #000;
 }
 
@@ -12,11 +15,10 @@ body{
     box-sizing: border-box;
 }
 
-.clear:after {
-    clear: both;
-    display: table;
-    content: " "
+a {
+    text-decoration: none;
 }
+
 .big-wrapper {
     width: 100%;
     height: 100%;
@@ -25,8 +27,8 @@ body{
 
 }
 
-.big-wrapper:after{
-    clear:both;
+.big-wrapper:after, .header-wrapper:after, .containercic:after, .container-bottom:after, .slider:after, .possition-center:after {
+    clear: both;
     content: ' ';
     display: table;
 }
@@ -36,12 +38,10 @@ header {
     width: 100%;
 }
 
-
 .header-wrapper {
     width: 1000px;
     margin: 0px auto 0px;
     background-color: azure;
-
 
 }
 
@@ -59,6 +59,7 @@ header {
 
 .nav-top .icon {
     margin-left: 20px;
+    color: #a86161;
 }
 
 .nav-bottom ul {
@@ -115,7 +116,7 @@ header {
 .container-bottom {
 
     position: relative;
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     background-color: transparent;
 
@@ -123,25 +124,170 @@ header {
 
 .slider .left-img {
 
+    float: left;
     width: 50%;
 
 }
 
 .left-img img {
     margin-top: 50px;
-    width: 400px;
+    width: 80%;
+    float: right;
 }
-
-
 
 /* logo image */
-.logo img{
-    width:170px;
+.logo img {
+    width: 170px;
 }
-
 
 /* navbar */
 
-.header-wrapper .nav-bottom{
+.header-wrapper .nav-bottom {
     height: 75px;
+
+}
+
+button {
+    border-radius: 25px;
+    width: 120px;
+    height: 42px;
+    margin-top: 30px;
+    font: 15px tahoma;
+}
+
+.right-text {
+    margin-top: 10%;
+    float: left;
+}
+
+.right-text p {
+    color: white;
+    font: 30px Tahoma;
+}
+
+.right-text h1 {
+    color: white;
+    font: 70px Tahoma;
+}
+
+.possition-center {
+    position: relative;
+    width: 1000px;
+    margin: 0px auto 0px;
+    background-color: azure;
+    padding: 50px 0px 0px;
+
+}
+
+.wraper-color {
+    background-color: azure;
+}
+
+.bt-nav {
+    margin-top: 6% !important;;
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    color: white;
+    background-color: #a86161;
+    float: left;
+}
+
+.possition-center .left {
+    left: -60px;
+}
+
+.possition-center .right {
+    right: -60px;
+}
+
+/*stilizovanje containercica*/
+
+.containercic {
+    background-color: azure;
+    width: 31%;
+    border: 1px solid gray;
+    float: left;
+    padding: 15px;
+    margin-left: 35px;
+
+}
+
+.containercic ul li {
+    display: inline;
+}
+
+.containercic ul {
+
+    line-height: 40px;
+    list-style: none;
+}
+
+.small-list {
+    line-height: 40px;
+}
+
+.float-left {
+    float: left;
+}
+
+.inline {
+    display: inline;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.service-title {
+    font: 20px Centaur bold;
+    position: absolute;
+    margin: 12px 15px;
+}
+
+.service-icon i {
+    padding-right: 15px;
+    border-right: 1px solid gray;
+}
+
+.service-desc a {
+    color: rgba(35, 35, 35, 1);
+}
+
+.mr-left {
+    margin-left: 0px;
+}
+
+.text-center {
+    padding: 50px;
+    text-align: center;
+}
+
+.text-center p {
+    font-family: Centaur;
+    font-size: 50px;
+}
+
+.p-midle {
+    font-family: ta;
+    font-size: 25px;
+
+}
+
+
+.left-text {
+    padding: 20px 20px 20px 0px;
+    text-align: justify;
+    width: 50%;
+}
+.classes {width: 20%}
+.classes img {width:100%;}
+.img-desc {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Tahoma;
+    padding:25px;
+    border: #232323 1px;
+
 }
