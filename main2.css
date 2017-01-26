@@ -288,6 +288,7 @@ button {
     font-weight: bold;
     font-family: Tahoma;
     padding:25px;
-    border: #232323 1px;
+    border: 1px solid #dadada4d;
+    margin-top: -4px;
 
 }
