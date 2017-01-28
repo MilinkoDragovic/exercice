@@ -326,13 +326,50 @@ button {
     background-repeat: no-repeat;
     background-position: 60px 0;
 }
+
 .i-padding {
-    padding:20px;
+    padding: 20px;
     color: #a86161;
 }
 
-.possition-2 {background-position: -340px 0 ;}
+.possition-2 {
+    background-position: -340px 0;
+}
 
-.possition-3 {background-position: -824px  0;}
+.possition-3 {
+    background-position: -824px 0;
+}
 
-.possition-4 {background-position: -1279px  0;}
+.possition-4 {
+    background-position: -1279px 0;
+}
+
+.left-container {
+    width: 55%;
+    margin-top: 70px;
+}
+
+.left-container img {
+    width: 100%;
+}
+
+.right-container {
+    background-image: url("Images/img1.jpg");
+    background-repeat: no-repeat;
+    background-color: #a86161;
+    position: absolute;
+    width: 840px;
+    right: 0px;
+    background-size: 100%;
+    height: 423px;
+    opacity: 0.5;
+}
+
+.right-container img {
+    width: 100%;
+    opacity: 0.05;
+}
+
+.padding-50-0 {
+    padding: 50px 0px;
+}
