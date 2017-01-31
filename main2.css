@@ -354,22 +354,56 @@ button {
 }
 
 .right-container {
-    background-image: url("Images/img1.jpg");
-    background-repeat: no-repeat;
     background-color: #a86161;
+    opacity: 0.99;
     position: absolute;
-    width: 840px;
+    width: 55%;
     right: 0px;
     background-size: 100%;
-    height: 423px;
-    opacity: 0.5;
-}
+    height: 528px;
 
-.right-container img {
-    width: 100%;
-    opacity: 0.05;
 }
 
 .padding-50-0 {
     padding: 50px 0px;
+}
+
+.form {
+    width: 632px;
+}
+
+.title {
+    margin-left: 50px;
+}
+
+.input-area {
+    margin-left: 50px;
+    display: table;
+    text-align: left;
+}
+
+.input-area input {
+
+    margin-left: 14px;
+
+
+    padding: 10px 15px;
+    width: 307px;
+    opacity: 0.5;
+}
+
+.width {
+    width: 632px !important; ;
+}
+.mr-top-14 {
+    margin-top: 14px;
+}
+
+textarea {
+    padding: 10px 15px;
+    opacity: 0.5;
+
+}
+.mr-0-auto {
+    margin: 18px 264px;
 }
