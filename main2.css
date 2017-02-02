@@ -193,6 +193,7 @@ button {
     float: left;
 }
 
+
 .possition-center .left {
     left: -60px;
 }
@@ -345,23 +346,31 @@ button {
 }
 
 .left-container {
+    background:  url("Images/img1.jpg");
+    background-size: auto 528px;
     width: 55%;
+    height: 528px;
     margin-top: 70px;
 }
 
-.left-container img {
-    width: 100%;
-}
+
 
 .right-container {
-    background-color: #a86161;
-    opacity: 0.99;
+    background:  url("Images/img1.jpg");
     position: absolute;
+    background-size: auto 100%;
     width: 55%;
     right: 0px;
-    background-size: 100%;
     height: 528px;
+    background-repeat: no-repeat;
 
+}
+
+.color-transparent {
+    background-color: #a86161;
+    width:100%;
+    height: 100%;
+    opacity: 0.9;
 }
 
 .padding-50-0 {
@@ -369,12 +378,27 @@ button {
 }
 
 .form {
+
     width: 632px;
+
 }
 
-.title {
-    margin-left: 50px;
+.form img {
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+
 }
+
+.title{
+    margin-left: 50px;
+    color: white;
+}
+.title >p {
+
+    color: white !important;
+}
+
 
 .input-area {
     margin-left: 50px;
@@ -406,4 +430,50 @@ textarea {
 }
 .mr-0-auto {
     margin: 18px 264px;
+}
+
+
+.contenercic-img {
+    background-image: url("Images/img1.png");
+    height: 250px;
+    background-size: 100%;
+
+}
+.padding-0 {
+    padding:0;
+}
+
+
+.padding-top-15 {
+    padding-top: 15px;
+}
+
+.mr-top-0{
+    margin-top: 0;
+}
+.border-none{
+    border: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.sticker-vertical {
+    padding: 10px;
+    color: white;
+    background-color: #a76161;
+    width: 120px;
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    top: 270px;
+    position: absolute;
+    left: -25px;
+}
+.float-right {
+    float: right;
+}
+
+.mr-left-10px {
+    margin-left: 10px;
 }
